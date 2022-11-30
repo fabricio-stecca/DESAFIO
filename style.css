@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "aidroid.otf";
+    src: url(conteudos/__MACOSX/fontes/aidroid.otf);
+}
+
+@font-face {
+    font-family: "idroid.otf";
+    src: url(conteudos/fontes/idroid.otf)
+} 
+
+
+body {
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(93, 175, 125);
+    text-shadow: 5px 5px 15px rgb(63, 63, 63);
+    
+}
+
+/* header */
+
+header {
+    
+    background-image: linear-gradient(to top, rgb(31, 88, 66), rgb(60, 202, 131));
+    font-family: "aidroid.otf";
+    padding: 15px;
+    margin: -8px -8px 0px;
+    box-shadow: 5px 5px 15px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 1px 1px 24px;
+}
+
+header > h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 34px;
+     
+}
+
+nav > a {
+    color: white;
+    margin: 40px 5px 2px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+nav > a:hover {
+    color: gray;
+    margin: 5px;
+}
+
+/* main */
+
+main {
+    margin: auto;
+    height: auto;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 3px 28px;
+    background-color: white;
+    box-shadow: 5px 5px 15px rgb(63, 63, 63);
+    border-radius: 0px 0px 10px 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.teste {
+    margin: 1px 1px;
+}
+
+.linkword {
+    color: rgb(37, 172, 116);
+    text-decoration: none;
+}
+
+.linkword:hover {
+    color: gray;
+}
+
+.android {
+    font-family: "idroid.otf";
+    color: rgb(4, 78, 4);
+}
+
+main > h3 {
+    background-image: linear-gradient(to right, rgb(83, 155, 83), white);
+}
+
+.bugdroidp {
+    max-width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+div.video {
+    background-color: rgb(4, 65, 47);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+    }
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+.extra > h2 {
+    background-color: rgb(22, 161, 96);
+    color: white;
+    border-radius: 9px 9px 0px 0px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.corpo {
+    padding: 1px 15px 15px 15px;
+    font-weight: 600;
+    text-shadow: none;
+}
+
+.extra{
+    background-color: rgb(168, 211, 187);
+    border-radius: 9px 9px 0px 0px;
+}
+
+section > ul{
+    display: inline-block
+}
+
+.ul2 {
+    margin-left: 100px;
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: rgb(3, 48, 3);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 20px -8px -16px -8px;
+    
+}
+
+footer > p {
+    padding: 8px 1px 8px 1px;
+}
+
