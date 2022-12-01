@@ -147,6 +147,7 @@ section > ul{
 
 ul {
     columns: 2;
+    margin-left: -36px;
     
 }
 
