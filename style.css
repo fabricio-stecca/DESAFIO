@@ -40,16 +40,23 @@ h1 {
 header > h2 {
     text-align: center;
     color: white;
-    margin-bottom: 34px;
+    margin-bottom: 18px;
      
+}
+
+nav {
+    
 }
 
 nav > a {
     color: white;
     margin: 40px 5px 2px;
-    padding: 5px;
+    padding: 1px 5px 5px 5px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
+    display: inline-block;
+    
+    
     
 }
 
