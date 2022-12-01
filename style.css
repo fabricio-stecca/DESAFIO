@@ -41,22 +41,17 @@ header > h2 {
     text-align: center;
     color: white;
     margin-bottom: 18px;
+    margin-bottom: 55px;
      
-}
-
-nav {
-    
 }
 
 nav > a {
     color: white;
-    margin: 40px 5px 2px;
+    margin: 1px 5px 2px;
     padding: 1px 5px 5px 5px;
     text-decoration: none;
     font-weight: 600;
-    display: inline-block;
-    
-    
+    display: inline-block;  
     
 }
 
@@ -146,10 +141,12 @@ div.video > iframe {
 .extra{
     background-color: rgb(168, 211, 187);
     border-radius: 9px 9px 0px 0px;
+    
 }
 
 section > ul{
-    display: inline-block
+    display: block;
+    
 }
 
 ul {
