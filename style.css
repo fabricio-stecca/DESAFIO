@@ -155,6 +155,7 @@ li {
 ul {
     columns: 2;
     margin-left: -36px;
+    font-size: 2.5vh;
     
     
 }
